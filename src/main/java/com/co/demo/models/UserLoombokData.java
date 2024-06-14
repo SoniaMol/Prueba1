@@ -2,7 +2,6 @@ package com.co.demo.models;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.datatable.DataTable;
-import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;

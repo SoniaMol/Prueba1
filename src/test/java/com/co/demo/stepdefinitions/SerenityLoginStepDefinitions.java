@@ -22,11 +22,13 @@ public class SerenityLoginStepDefinitions {
 
     @When("attempts to log in")
     public void attemptsToLogIn(DataTable table) {
+
         loginSteps.login(UserLoombokData.setData(table).get(0));
     }
 
     @Then("^will validate the text on screen (.*)$")
     public void willValidateTheTextOnScreenMessage(String text) {
+
         loginSteps.validateTextOnScreen(text);
     }
 }

@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 
 public class SerenityLoginPage extends PageObject {
 
-    private static By TXT_USER = By.xpath("//input[@id='LoginPanel0_Username']");
-    private static By TXT_PASS = By.xpath("//input[@id='LoginPanel0_Password']");
-    private static By BTN_SUBMIT = By.xpath("//button[@id='LoginPanel0_LoginButton']");
+    private static final By TXT_USER = By.xpath("//input[@id='LoginPanel0_Username']");
+    private static final By TXT_PASS = By.xpath("//input[@id='LoginPanel0_Password']");
+    private static final By BTN_SUBMIT = By.xpath("//button[@id='LoginPanel0_LoginButton']");
 
 
     public static By getTxtUser() {
